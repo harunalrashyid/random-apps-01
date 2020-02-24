@@ -1,0 +1,72 @@
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Lobster';
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    margin-top: 20vh;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-4 {
+	position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-4 {
+	-webkit-box-flex: 0;
+    -ms-flex: 0 0 calc(33.3333333333% - 10px);
+    flex: 0 0 calc(33.3333333333% - 10px);
+    max-width: calc(33.3333333333% - 10px);
+}
+
+.ketupat__card {
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    transform: rotate(45deg);
+    
+}
+
+.ketupat__square {
+	margin: 5px;
+	height: 50px;
+}
+
+.ketupat__square--dark {
+	background-color: green;
+}
+
+.ketupat__square--light {
+	background-color: limegreen;	
+}
+
+.ketupat__heading-row {
+    margin-top: 5rem;
+    text-align: center;
+}
