@@ -1,5 +1,4 @@
-# ujian-web-front-ajita
-Ujian web front end Ajita Indonesia
+# Random Apps
 
 01. Soal Kartu Lebaran
 02. Dropdown Bersambung
